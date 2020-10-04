@@ -1,0 +1,18 @@
+##################### config files
+
+alias i3config='$DEFAULT_EDITOR ~/.i3/config'
+alias zshconfig="$DEFAULT_EDITOR ~/.zshrc"
+alias roficonfig="$DEFAULT_EDITOR $PRO_CONF_DIR/rofi/config"
+alias rofi-themeconfig="$DEFAULT_EDITOR $PRO_CONF_DIR/rofi/custom.rasi"
+
+alias myconfig="$DEFAULT_EDITOR $MY_CONF_DIR/.userconf"
+alias aliasesconfig="$DEFAULT_EDITOR $MY_CONF_DIR/.aliasesrc"
+alias pathesconfig="$DEFAULT_EDITOR $MY_CONF_DIR/.pathesrc"
+alias terminalconfig=$DEFAULT_EDITOR 
+
+#################### Terminal Cleaning
+alias cl="clear"
+
+#################### File Listing
+alias ll="ls -l"
+alias la="ls -a"

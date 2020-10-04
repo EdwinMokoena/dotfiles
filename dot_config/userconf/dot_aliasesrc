@@ -1,0 +1,28 @@
+##################### config files
+
+alias i3config='$DEFAULT_EDITOR ~/.i3/config'
+alias zshconfig="$DEFAULT_EDITOR ~/.zshrc"
+alias roficonfig="$DEFAULT_EDITOR $PRO_CONF_DIR/rofi/config"
+alias rofi-themeconfig="$DEFAULT_EDITOR $PRO_CONF_DIR/rofi/custom.rasi"
+alias nvimconfig="$DEFAULT_EDITOR ~/.config/nvim/init.vim"
+
+alias myconfig="$DEFAULT_EDITOR $MY_CONF_DIR/.userconf"
+alias aliasesconfig="$DEFAULT_EDITOR $MY_CONF_DIR/.aliasesrc"
+alias pathesconfig="$DEFAULT_EDITOR $MY_CONF_DIR/.pathesrc"
+alias includesconfig="$DEFAULT_EDITOR $MY_CONF_DIR/.includesrc"
+alias termconfig="$DEFAULT_EDITOR $PRO_CONF_DIR/$TERMINAL/$TERMINAL.conf"
+alias tmuxconfig="$DEFAULT_EDITOR $HOME/.tmux.conf.local"
+
+#################### Terminal Shortcuts
+alias cl="clear"
+alias ll="ls -l"
+alias la="ls -a"
+alias soz="source $HOME/.zshrc"
+alias sot="source $HOME/.tmux.conf"
+
+################### Wordpress
+alias wordpress="php -S 127.0.0.1:8070 -t /usr/share/webapps/wordpress/"
+
+
+################### Wordpress
+alias phpmyadmin="php -S 127.0.0.1:7235 -t /usr/share/webapps/phpMyAdmin/"

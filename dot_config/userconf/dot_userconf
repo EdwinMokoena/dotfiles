@@ -1,0 +1,64 @@
+export MY_CONF_DIR="$HOME/.config/userconf"
+export PRO_CONF_DIR="$HOME/.config"
+export DEFAULT_EDITOR="nvim"
+export EDITOR="nvim"
+export TERMINAL="/usr/bin/xterm"
+export NVIM_TUI_ENABLE_TRUE_COLOR=1
+# export DOCKER_HOST=unix://$XDG_RUNTIME_DIR/docker.sock
+export DOCKER_HOST=unix:///var/run/docker.sock
+export BW_SESSION="UHT/WP1x29THJTbWEPyAqoS71qtvpI53dp3AA5nS+R3s30HmOWuMWdEVWNUl+D7gjUySV5mT89KLnhkmfPzZEA=="
+
+# Load aliases
+source $MY_CONF_DIR/.aliasesrc
+
+# Load Paths
+source $MY_CONF_DIR/.pathesrc
+
+# Load Program includes
+source $MY_CONF_DIR/.includesrc
+
+###############################
+####      CHEAT_ENV_VAR     ###
+###############################
+
+export CHEAT_COLORS=true
+export CHEAT_COLORSCHEME=dark
+
+###############################
+####      RERUN_ENV_VAR     ###
+###############################
+
+export RERUN_MODULES=$HOME/Work/Scripts
+
+###############################
+####      HSTR_ENV_VAR     ###
+###############################
+
+export HISTFILESIZE=10000
+export HISTSIZE=${HISTFILESIZE}
+export HISTFIE=~/.zsh_history
+export HSTR_CONFIG=hicolor
+
+
+##############################
+####     QFC_ENV_VAR      ####
+##############################
+
+##############################
+#### ANDROID_HOME_ENV_VAR ####
+##############################
+
+
+##############################
+#### VENVWRAPPER_ENV_VAR ####
+##############################
+
+export WORKON_HOME=~/Envs
+export PROJECT_HOME=~/Work
+#export VIRTUALWRAPPER_PYTHON=~/usr/bin/python
+#export VIRTUALWRAPPER_VIRTUALENV=~/.local/bin/virtualenv
+source ~/.local/bin/virtualenvwrapper.sh
+
+if command -v pyenv 1>/dev/null 2>&1; then
+eval "$(pyenv init -)"
+fi
